@@ -1,0 +1,138 @@
+/*Variáveis*/
+
+:root {
+  --vermelho: #E50914;
+  --preta: #141414;
+  --cinza: #AAA;
+  --interacao: #fff;
+}
+
+/*Formatação*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Base elements*/
+
+body {
+  background: var(--preta);
+  font-family: Arial, Times, serif;
+  color: white;
+}
+
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo {
+  color: var(--vermelho);
+  font-family: 'Arial Black', Times;
+  font-size: 40px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: var(--cinza);
+  margin-right: 10px;
+}
+
+header nav a:hover {
+  color: var(--interacao);
+}
+
+.item {
+  background: white;
+}
+
+.box-rockets {
+  float: left;
+  height: 350px;
+  width:  auto;
+  object-fit: cover;
+  filter: brightness(0.5);
+  transition: 0.5s ease all;
+  cursor: pointer;
+  display: block;
+}
+
+.box-rockets:hover {
+  filter: brightness(1);
+  display: block;
+}
+
+/*Main Rocket*/
+
+.foguete-principal {
+  font-size: 16px;
+  background: url('/home/gabrielpacmil/digitial innovation one/DIO/rocketflix/img/saturn_v.jpg');
+  filter: brightness(0.5);
+  height: 400px;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  cursor: pointer;
+  transition: .5s ease all;
+  margin-bottom: 10px;
+
+}
+
+.foguete-principal:hover {
+  background: url('/home/gabrielpacmil/digitial innovation one/DIO/rocketflix/img/saturn_v.jpg');
+  background-size: cover;
+  filter: brightness(0.8);
+
+}
+
+.foguete-principal .descricao{
+  margin-bottom: 40px;
+}
+
+.titulo {
+  margin-top: 40px;
+  font-size: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
+}
+
+.botao {
+  background-color: rgba(0,0,0,0.50);
+  border: none;
+  color: white;
+
+  padding: 15px 30px;
+  margin-right: 15px;
+  font-size: 12px;
+
+  cursor: pointer;
+  transition: .3s ease all;
+}
+
+.botao:hover{
+  background-color: white;
+  color: black;
+}
+
+.botao i {
+  margin-right: 8px;
+}
+
+.container {
+  margin-left: 40px;
+}
+
+.foguete-principal .container {
+  width: 70%;
+}
+
+.logo i {
+  margin-left: 8px;
+}
