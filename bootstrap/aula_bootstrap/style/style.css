@@ -1,0 +1,60 @@
+:root {
+  --verde1: #58D68D;
+  --verde2: #145A32;
+}
+
+
+.quem-somos, .servicos {
+  background: var(--verde1);
+}
+
+.margin {
+  padding: 50px;
+}
+
+* {
+  color: white;
+}
+
+h4, h3 {
+  padding: 50px;
+}
+
+.parceiros, footer {
+  background: var(--verde2);
+  padding-bottom: 15px;
+}
+
+.img-parceiros {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  padding-bottom: 30px;
+}
+
+.img-servicos {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  padding-bottom: 30px;
+}
+
+.foto-time {
+  height: 600px;
+  width: 600px;
+}
+
+
+@media screen and (max-width: 500px) {
+  .foto-time {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .foto-time {
+    width: 400px;
+    height: 400px;
+  }
+}
