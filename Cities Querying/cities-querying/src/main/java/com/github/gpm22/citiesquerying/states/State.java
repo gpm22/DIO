@@ -12,9 +12,9 @@ import java.util.List;
 
 @Entity(name = "State")
 @Table(name = "estado")
-/*@TypeDefs({
+@TypeDefs({
         @TypeDef(name = "jsonb", typeClass = JsonBinaryType.class)
-})*/
+})
 public class State {
 
     @Id
@@ -37,7 +37,6 @@ public class State {
     private List<Integer> ddd;
 
     public State() {
-
     }
 
     public Long getId() {
@@ -50,6 +49,10 @@ public class State {
 
     public String getUf() {
         return uf;
+    }
+
+    public List<Integer> getDdd() {
+        return ddd;
     }
 
     public Integer getIbge() {
