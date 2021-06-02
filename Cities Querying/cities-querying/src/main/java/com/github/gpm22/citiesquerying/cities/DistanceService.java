@@ -47,18 +47,6 @@ public class DistanceService {
      *
      * @param city1
      * @param city2
-     * @return
-     */
-    public Double distanceByPointsInMiles(final Long city1, final Long city2) {
-        log.info("nativePostgresInMiles({}, {})", city1, city2);
-        return cityRepository.distanceByPoints(city1, city2);
-    }
-
-    /**
-     * 3rd option
-     *
-     * @param city1
-     * @param city2
      * @param unit
      * @return
      */
@@ -73,20 +61,21 @@ public class DistanceService {
     }
 
     /**
-     * 4th option
+     * 3rd option
      *
      * @param city1
      * @param city2
      * @return
      */
-    public Double distanceByCubeInMeters(Long city1, Long city2) {
-        log.info("distanceByCubeInMeters({}, {})", city1, city2);
+    public Double distanceByCube(Long city1, Long city2) {
+        log.info("distanceByCube({}, {})", city1, city2);
         final List<City> cities = cityRepository.findAllById((Arrays.asList(city1, city2)));
 
         Point p1 = cities.get(0).getLocation();
         Point p2 = cities.get(1).getLocation();
 
         return cityRepository.distanceByCube(p1.getX(), p1.getY(), p2.getX(), p2.getY());
+
     }
 
     private double doCalculation(final double lat1, final double lon1, final double lat2,
@@ -98,5 +87,9 @@ public class DistanceService {
         double c = 2 * atan2(sqrt(a), sqrt(1 - a));
 
         return earthRadius.getValue() * c;
+    }
+
+    public String cityName (long city) {
+        return cityRepository.findById(city).get().getName();
     }
 }

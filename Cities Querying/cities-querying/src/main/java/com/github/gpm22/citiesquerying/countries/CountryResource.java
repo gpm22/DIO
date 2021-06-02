@@ -25,7 +25,9 @@ public class CountryResource {
 
     @GetMapping
     public Page<Country> countries(Pageable page) {
+
         return repository.findAll(page);
+
     }
 
     @GetMapping("/{id}")
