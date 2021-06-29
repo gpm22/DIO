@@ -6,6 +6,8 @@ Programa simples de transferência bancária para treinadores pokémon para ser 
 
 ## Exemplo
 
+* As entradas de dados estão indicadas por **#** ao lado direito;
+
 Ao se iniciar o programa, que é feito ao se executar o comando ***dotnet run*** no diretório do programa, o seguinte menu irá aparecer:
 
 ```bash

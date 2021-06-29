@@ -9,3 +9,7 @@
   4- Pikachu's snake game :snake: - The classical snake game using the Pikachu's colors created with HTML, CSS and JavaScript;
 
   5 - Cities Querying :city_sunrise: - API Rest created with Java 8, Spring, and PostgreSQL for querying world Countries and Brazilian Cities and States with comparative data and calculating the distance between two brazilian cities.
+
+  6 - PokeBank :money_mouth_face: - A simple bank transfer console app for pokemon trainers created. Created in **C#** and **.NET**.
+
+  7 - PokeRegistration :book::snake: - A simple console app for registration of Pokemons. Created in **C#** and **.NET**.
