@@ -1,0 +1,16 @@
+/home/gabrielpacmil/digitial innovation one/DIO/PokeRegistration/PokeRegistration/obj/Debug/net5.0/PokeRegistration.csproj.AssemblyReference.cache
+/home/gabrielpacmil/digitial innovation one/DIO/PokeRegistration/PokeRegistration/obj/Debug/net5.0/PokeRegistration.GeneratedMSBuildEditorConfig.editorconfig
+/home/gabrielpacmil/digitial innovation one/DIO/PokeRegistration/PokeRegistration/obj/Debug/net5.0/PokeRegistration.AssemblyInfoInputs.cache
+/home/gabrielpacmil/digitial innovation one/DIO/PokeRegistration/PokeRegistration/obj/Debug/net5.0/PokeRegistration.AssemblyInfo.cs
+/home/gabrielpacmil/digitial innovation one/DIO/PokeRegistration/PokeRegistration/obj/Debug/net5.0/PokeRegistration.csproj.CoreCompileInputs.cache
+/home/gabrielpacmil/digitial innovation one/DIO/PokeRegistration/PokeRegistration/bin/Debug/net5.0/PokeRegistration
+/home/gabrielpacmil/digitial innovation one/DIO/PokeRegistration/PokeRegistration/bin/Debug/net5.0/PokeRegistration.deps.json
+/home/gabrielpacmil/digitial innovation one/DIO/PokeRegistration/PokeRegistration/bin/Debug/net5.0/PokeRegistration.runtimeconfig.json
+/home/gabrielpacmil/digitial innovation one/DIO/PokeRegistration/PokeRegistration/bin/Debug/net5.0/PokeRegistration.runtimeconfig.dev.json
+/home/gabrielpacmil/digitial innovation one/DIO/PokeRegistration/PokeRegistration/bin/Debug/net5.0/PokeRegistration.dll
+/home/gabrielpacmil/digitial innovation one/DIO/PokeRegistration/PokeRegistration/bin/Debug/net5.0/ref/PokeRegistration.dll
+/home/gabrielpacmil/digitial innovation one/DIO/PokeRegistration/PokeRegistration/bin/Debug/net5.0/PokeRegistration.pdb
+/home/gabrielpacmil/digitial innovation one/DIO/PokeRegistration/PokeRegistration/obj/Debug/net5.0/PokeRegistration.dll
+/home/gabrielpacmil/digitial innovation one/DIO/PokeRegistration/PokeRegistration/obj/Debug/net5.0/ref/PokeRegistration.dll
+/home/gabrielpacmil/digitial innovation one/DIO/PokeRegistration/PokeRegistration/obj/Debug/net5.0/PokeRegistration.pdb
+/home/gabrielpacmil/digitial innovation one/DIO/PokeRegistration/PokeRegistration/obj/Debug/net5.0/PokeRegistration.genruntimeconfig.cache
