@@ -13,3 +13,5 @@
   6 - PokeBank :money_mouth_face: - A simple bank transfer console app for pokemon trainers. Created in **C#** and **.NET**.
 
   7 - PokeRegistration :book::snake: - A simple console app for registration of Pokemons. Created in **C#** and **.NET**.
+
+  8 - Gerenciador de Reuniões - API com Spring Boot para gerenciar salas de reunião, utilizando o Spring Data para persistência de dados e o banco in-memory H2. E o Front End que consume essa API é uma SPA escrita em Angular.
