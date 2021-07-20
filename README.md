@@ -15,6 +15,7 @@
 13. My Memory :game_die: - Jogo da memória com a temática de Super Mario sendo desenvolvido puramente com HTML, CSS e JavaScript. 
 14. My Shooter :gun: - Jogo no estilo space shooter criado usando puramento HTML, CSS e JavaScript.
 15. My Tic Tac Toe :white_circle::heavy_multiplication_x: - Jogo da velha desenvolvido puramente com HTML, CSS e JavaScript.
+16. My Rescue :runner::helicopter: - Jogo de resgate onde o jogador controla um helicópero e deve resgastar um solado aliado que está em solo.
 
 
 
